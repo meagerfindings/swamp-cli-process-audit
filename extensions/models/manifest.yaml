@@ -1,0 +1,18 @@
+manifestVersion: 1
+name: "@mgreten/cli-process-audit"
+version: "2026.05.21.1"
+description: >
+  Scan for running CLI coding agent processes (claude, opencode, amp, gemini),
+  classify each as healthy, orphaned, zombie, or long-running, and produce
+  structured snapshots. Works on macOS and Linux.
+
+repository: https://github.com/meagerfindings/swamp-cli-process-audit
+
+models:
+  - cli_process_audit.ts
+
+additionalFiles:
+  - README.md
+  - LICENSE.txt
+
+platforms: []
