@@ -1,6 +1,6 @@
 manifestVersion: 1
 name: "@mgreten/cli-process-audit"
-version: "2026.05.21.1"
+version: "2026.06.27.1"
 description: >
   Scan for running CLI coding agent processes (claude, opencode, amp, gemini),
   classify each as healthy, orphaned, zombie, or long-running, and produce
