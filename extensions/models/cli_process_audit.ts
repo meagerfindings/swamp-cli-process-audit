@@ -222,7 +222,7 @@ type MethodContext = {
  */
 export const model = {
   type: "@mgreten/cli-process-audit" as const,
-  version: "2026.06.27.1" as const,
+  version: "2026.07.16.1" as const,
   globalArguments: GlobalArgsSchema,
 
   resources: {
