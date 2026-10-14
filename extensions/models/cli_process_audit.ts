@@ -13,14 +13,10 @@ import { z } from "npm:zod@4";
 // ---------------------------------------------------------------------------
 
 /** Supported CLI agent providers to scan for. */
-const ProviderEnum: z.ZodEnum<["claude", "opencode", "amp", "gemini"]> = z.enum(
-  ["claude", "opencode", "amp", "gemini"],
-);
+const ProviderEnum = z.enum(["claude", "opencode", "amp", "gemini"]);
 
 /** Health classification for a discovered process. */
-const HealthEnum: z.ZodEnum<
-  ["healthy", "orphaned", "zombie", "long_running"]
-> = z.enum([
+const HealthEnum = z.enum([
   "healthy",
   "orphaned",
   "zombie",

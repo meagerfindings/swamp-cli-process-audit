@@ -1,6 +1,6 @@
 manifestVersion: 1
 name: "@mgreten/cli-process-audit"
-version: "2026.10.14.1"
+version: "2026.10.14.2"
 license: MIT
 description: >
   Scan for running CLI coding agent processes (claude, opencode, amp, gemini),
